@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<!--- form qs. name, last name, email, dob, accept terms and con.--->
+<head>
+   
+    <navigation> 
+        <a href="./home.html"> Home </a> 
+        <a href="./sign_up.html">Sign Up </a>
+
+    </navigation>
+    <title> Sign Up Form</title>
+    <link  href="style.css" rel="stylesheet" >
+</head>
+ <body>
+    <style> body{ text-align: center;} </style>
+     <section>
+        <form action="./home.html" method="POST">
+       <h1> Sign Up</h1>
+       <p> Fill in the form below to sign up for our wating list</p>
+    <section class=Firstname> 
+       <label name="first name"> Username:</label>
+       <input for='username' name='first_name' id='username' type="text">
+    </section>
+<br>
+    <section class=Surename> 
+       <label name="surename"> Surename</label>
+       <input for='surename' name='last_name' id=surename type='text'>
+    </section>
+<br>
+    <section class="email"> 
+        <label for='Email'> Email Adress</label>
+        <input id='email' name="email adress" type="text">
+    </section>
+       </form>
+
+    </section>
+<br>
+    <section class="Date of Birth">
+       <p>Input your date of birth</p>
+       <label for='Date of birth'> Date</label>
+       <input id="Date of birth" name="Date of Birth" type="number" steps='1' min='1' max='31'>
+
+       <label for="Month">Month</label>
+       <select id="Month" name='Month'>
+          <option value='January'>January</option>
+          <option value="February">February</option>
+          <option value='March'>March</option>
+          <option value='April'>April</option>
+          <option value='May'>May</option>
+          <option value='June'>June</option>
+          <option value='July'>July</option>
+          <option value='August'>August</option>
+          <option value='September'>September</option>
+          <option value='October'>October</option>
+          <option value='November'>November</option>
+          <option value='December'>Decemebr</option>
+        </select>
+
+        <label for="year">Year</label>
+        <input id='year' name='date of birth' type='number' steps='1' min="1900" max='2020'>
+     </section>
+ <br>
+    <section class='Terms & Conditions'> 
+        <label for='Terms & Conditions'> I agree to the terms & conditions </label>
+        <input id='Yes' name="Terms & Conditions" type='radio' value='yes'>
+
+    </section>
+    
+    <button name='sign up' type="button"></button>
+    <label id="sign up" type='button'></label>
+ </body>
